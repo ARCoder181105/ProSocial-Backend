@@ -1,5 +1,5 @@
-import Post from '../models/post.models.js';
-import User from '../models/user.models.js';
+import {Post} from '../models/post.models.js';
+import {User} from '../models/user.models.js';
 
 export const getPost = async (req, res) => {
     const id = req.params.id;
